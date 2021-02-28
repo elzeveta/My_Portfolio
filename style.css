@@ -183,13 +183,16 @@ main .location {
 }
 footer {
     background: #616161;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
 }
 footer .blog {
-    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+footer ul li img {
+    width: 50px;
+}
+/* footer .blog {
+   
     padding: 20px;
 }
 footer ul li {
@@ -203,7 +206,7 @@ footer .post-1 img, .post-2 img {
 }
 footer .post-1 {
     border-bottom: 1px solid #ddd;
-}
+} */
 
 
 
