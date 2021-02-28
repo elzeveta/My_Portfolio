@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(225, 228, 228);
+    background: #f1f1f1;
     font-family: "Raleway", sans-serif;
     color: rgba(27, 3, 3, 0.911);
 }
@@ -93,4 +93,25 @@ hr {
     border: 3px solid #cccccc;
     margin: 15px;
 }
+main .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+.grid-box {
+    background: #ffffff;
+    margin: 10px;  
+}
+main .grid-box img {
+    width: 100%;
+    height: 260px;
+}
+main .grid-box img:hover {
+    opacity: 0.6;
+}
+main .grid-text {
+    padding: 5px 10px;
+    font-family: cursive;
+}
+
 
